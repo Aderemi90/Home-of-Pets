@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*  */
+
+/* HEADER SECTION */
+
+.Logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+header {
+  height: 75vh;
+  width: 100vw;
+  background-image: url(Header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.group {
+  position: absolute;
+  bottom: 4rem;
+  right: 25.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.navform{
+    padding-top: 5px;
+}
+
+input {
+  height: 2rem;
+  width: 20rem;
+  padding-left: 1rem;
+  border-radius: 7px;
+}
+
+button {
+  height: 2rem;
+  width: 5rem;
+  border-radius: 7px;
+}
+
+button:hover,
+button:focus {
+  background-color: brown;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.navlinks{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.navlinks:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: brown;
+}
+
+.hearderpara {
+  text-align: center;
+  padding: 20px;
+}
+
+.hearderTitle {
+  text-align: center;
+  font-size: 3.5rem;
+  color: brown;
+}
+
+h2 {
+  padding-left: 40px;
+}
+
+li:hover {
+  color: black;
+}
+
+#newsletter {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.subscribe {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(4, 220, 123);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.subscribe:hover {
+  background-color: rgb(1, 71, 39);
+}
+
+.register {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(220, 112, 4);
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.register:hover {
+  background-color: rgb(93, 47, 0);
+}
+
+/* MAIN SECTION */
+
+.essay {
+  padding: 10px 35px 30px 40px;
+  font-size: larger;
+}
+p.stanza{
+  padding: 10px 35px 30px 40px;
+  font-size: larger;
+}
+/* NEWSLETTER PAGE */
